@@ -1,6 +1,7 @@
 /**
- * Audurra theme_color1 — единая типографика H1–H3 (axbase / оригинал).
- * H1: 30px #c82127 + hr 227×2px; H2: 22px; H3: 20px; Lato 500; отступы как на axalta.com.
+ * Audurra theme_color1 — единая типографика H1–H3 + базовый vertical rhythm (axbase).
+ * Контракт: ~/.cursor/skills/page-replication-localization/SKILL.md → rule 41
+ * H1: 30px #c82127 + hr 227×2px; H2: 22px mb25; H3: 20px mb10; Lato 500; center.
  */
 
 :root {
@@ -17,6 +18,8 @@
   --audurra-h3-mb: 10px;
   --audurra-h1-rule-mt: 10px;
   --audurra-h1-rule-mb: 35px;
+  --audurra-body-p-mb: 15px;
+  --audurra-section-block-mb: 10px;
 }
 
 /* --- Контейнеры: выравнивание по центру --- */
@@ -171,6 +174,25 @@ main.catalog-page .facetMain .working-with-audurra-scope .component.textComponen
   text-align: center;
   text-decoration: underline;
   text-underline-offset: 2px;
+}
+
+/* --- Vertical rhythm (axbase theme_color1) --- */
+main.catalog-page .facetMain [class*="-scope"] .headlineContent {
+  margin-bottom: 0;
+}
+
+main.catalog-page .facetMain [class*="-scope"] .clearfix.layoutBorder.section,
+main.catalog-page .facetMain [class*="-scope"] .wwa-section-block,
+main.catalog-page .facetMain [class*="-scope"] .wa-faq-block {
+  margin-bottom: var(--audurra-section-block-mb);
+}
+
+main.catalog-page .facetMain [class*="-scope"] .component.textComponent p {
+  margin: 0 0 var(--audurra-body-p-mb);
+}
+
+main.catalog-page .facetMain [class*="-scope"] .component.textComponent h3 + p {
+  margin-bottom: 18px;
 }
 
 /* Мобильный H1 — axbase 767px */
