@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Представители — New Site</title>
+  <meta name="description" content="Карточки представителей New Site с возможностью редактирования.">
+  <link rel="icon" type="image/png" href="data:image/png;base64,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">
+  <link rel="icon" href="../favicon.ico" sizes="any">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Titillium+Web:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <!-- SITE_TEMPLATE:BEGIN site-top -->
+  <header class="main corporate textLogo headerTop site-header" id="siteHeader" data-origheight="114">
+    <div class="axalta-ribbon" id="axaltaRibbon">
+      <div class="axalta-ribbon-inner">
+        <div class="axalta-ribbon-brand">
+          <a
+            class="axalta-ribbon-logo-link"
+            href="#"
+            aria-label="Axalta Coating Systems"
+          >
+            <img src="../img/footer-axalta-official.svg" width="180" height="48" alt="" class="axalta-ribbon-logo">
+          </a>
+          <a class="axalta-ribbon-domain-link" href="#" lang="en" aria-label="axalta.com">axalta.com</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="header_wrapper">
+      <div class="brand-wrap">
+        <a class="brand" href="../index.html" aria-label="Главная страница Audurra">
+          <img src="../img/audurra-logo.jpg" alt="Логотип Audurra" width="340" height="180">
+        </a>
+      </div>
+      <div class="ajaxLoader">
+        <div class="nav">
+          <nav aria-label="Secondary Navigation" class="util top-meta" id="topMeta" role="navigation">
+            <div class="search-cluster" id="searchCluster">
+              <button type="submit" form="searchBox" class="search-submit-round" id="searchSubmitRound" aria-label="Найти">
+                <span class="meta-round"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></span>
+              </button>
+              <button type="button" class="search-toggle" id="searchToggle" aria-expanded="false" aria-label="Открыть поиск">
+                <span class="meta-label">Поиск</span>
+                <span class="meta-round">
+                  <i class="fa-solid fa-magnifying-glass icon-search"></i>
+                  <i class="fa-solid fa-xmark icon-close"></i>
+                </span>
+              </button>
+              <form class="search-box" id="searchBox" action="#" method="get">
+                <span class="search-area-icon" aria-hidden="true">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+                <input type="text" enterkeyhint="search" inputmode="search" name="q" placeholder="Поиск" autocomplete="off" aria-label="Поиск">
+              </form>
+            </div>
+            <a class="meta-link meta-link-user" href="#">Мой Audurra <i class="fa-regular fa-user meta-user-icon"></i></a>
+            <a class="meta-link meta-link-worldwide" href="../who-we-are/where-to-buy.html">Представители <span class="meta-worldwide-icon lnr lnr-earth" aria-hidden="true"></span></a>
+            <a class="meta-icon" href="#" aria-label="YouTube"><i class="fa-solid fa-play"></i></a>
+            <a class="meta-icon" href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a class="meta-icon" href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a class="meta-icon" href="#" aria-label="RSS"><i class="fa-solid fa-rss"></i></a>
+          </nav>
+
+          <div class="main-nav-wrap">
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" type="button" aria-label="Открыть навигацию" aria-expanded="false" aria-controls="mainNav">
+              <span class="burger" aria-hidden="true"><span class="line1"></span><span class="line2"></span><span class="line3"></span><span class="lineX1"></span><span class="lineX2"></span></span>
+            </button>
+            <nav class="main-nav" id="mainNav" aria-label="Главная навигация">
+              <div class="nav-item has-submenu">
+                <button class="nav-trigger" type="button" aria-expanded="false">Что такое Audurra?</button>
+                <div class="submenu-panel">
+                  <a href="../what-is-audurra/index.html">ОБЗОР</a>
+                  <a href="../what-is-audurra/abrasives.html">АБРАЗИВЫ</a>
+                  <a href="../what-is-audurra/masking.html">МАСКИРОВКА</a>
+                  <a href="../what-is-audurra/personal-protection.html">СРЕДСТВА ЗАЩИТЫ</a>
+                  <a href="../what-is-audurra/paint-preparation.html">ПОДГОТОВКА К ОКРАСКЕ</a>
+                  <a href="../what-is-audurra/substrate-preparation.html">ПОДГОТОВКА ПОДЛОЖКИ</a>
+                  <a href="../what-is-audurra/paint-stands-storage-systems.html">СТОЙКИ И ХРАНЕНИЕ</a>
+                  <a href="../what-is-audurra/plastic-repair.html">РЕМОНТ ПЛАСТИКА</a>
+                </div>
+              </div>
+              <div class="nav-item has-submenu">
+                <button class="nav-trigger" type="button" aria-expanded="false">Работа с Audurra?</button>
+                <div class="submenu-panel">
+                  <a href="../working-with-audurra/index.html">ОБЗОР</a>
+                  <a href="../working-with-audurra/tds-sds.html">TDS / SDS</a>
+                  <a href="../working-with-audurra/how-to-use-our-products.html">КАК ИСПОЛЬЗОВАТЬ ПРОДУКЦИЮ</a>
+                  <a href="../working-with-audurra/publications.html">ПУБЛИКАЦИИ</a>
+                  <a href="../working-with-audurra/videos.html">ВИДЕО</a>
+                </div>
+              </div>
+              <div class="nav-item has-submenu">
+                <button class="nav-trigger" type="button" aria-expanded="false">Зачем Audurra?</button>
+                <div class="submenu-panel">
+                  <a href="../why-audurra/index.html">ОБЗОР</a>
+                  <a href="../why-audurra/faq.html">ЧАСТЫЕ ВОПРОСЫ</a>
+                </div>
+              </div>
+              <div class="nav-item has-submenu">
+                <button class="nav-trigger" type="button" aria-expanded="false">Каталог</button>
+                <div class="submenu-panel">
+                  <a href="../catalog/index.html">КАТАЛОГ ТОВАРОВ</a>
+                  <a href="../documents/Audurra_Catalogue_EN_2025-10.pdf" target="_blank" rel="noopener noreferrer nofollow">КАТАЛОГ-ПРОСПЕКТ (PDF)</a>
+                </div>
+              </div>
+              <div class="nav-item has-submenu">
+                <button class="nav-trigger" type="button" aria-expanded="false">Контакты</button>
+                <div class="submenu-panel">
+                  <a href="../contacts/contacts.html">СВЯЗАТЬСЯ С НАМИ</a>
+                </div>
+              </div>
+            </nav>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <button type="button" class="mobile-nav-backdrop" id="mobileNavBackdrop" hidden aria-label="Закрыть меню"></button>
+
+  <!-- SITE_TEMPLATE:END site-top -->
+
+  <main class="catalog-page where-to-buy-page">
+    <div class="container catalog-page-inner">
+      <nav class="breadcrumb" aria-label="Навигационная цепочка">
+        <a href="../index.html">Главная</a>
+        <span class="breadcrumb-sep" aria-hidden="true"></span>
+        <a href="../pages/about.html">Кто мы</a>
+        <span class="breadcrumb-sep" aria-hidden="true"></span>
+        <span class="breadcrumb-current" aria-current="page">Где купить</span>
+      </nav>
+      <div class="where-to-buy-content">
+        <header class="catalog-page-header section-block where-to-buy-header headlineContent">
+          <h1 class="catalog-page-title where-to-buy-title">Где можно купить продукцию New Site?</h1>
+          <hr class="where-to-buy-title-rule" aria-hidden="true">
+        </header>
+
+        <section class="section-block where-to-buy-contact-row" aria-labelledby="where-to-buy-contact-heading">
+          <div class="where-to-buy-copy">
+            <p>Наша продукция доступна через сеть офисов продаж, дилеров и авторизованных импортёров. Они помогут подобрать продукт, сервис или инструмент, который лучше всего соответствует вашим потребностям, и подскажут, как добиться наилучших результатов.</p>
+            <h3 id="where-to-buy-contact-heading">Найдите ближайший контактный пункт, который поможет вам</h3>
+          </div>
+
+          <a class="where-to-buy-media-teaser" href="../contacts/contacts.html">
+            <div class="where-to-buy-media-text">
+              <p>Если у вас есть вопросы, комментарии или предложения по доступности продуктов, сервисов или инструментов New Site в вашем регионе, свяжитесь с нами.</p>
+              <div class="where-to-buy-linktext"><span class="icon-arrow-right" aria-hidden="true"></span>Связаться с нами</div>
+            </div>
+          </a>
+        </section>
+
+        <section class="section-block where-to-buy-setup-note" aria-label="Временная инструкция по настройке представителей">
+          <h2>Временный блок настройки раздела «Где купить»</h2>
+          <p><strong>Этот блок виден только на этапе подготовки сайта. Удалите его из <code>who-we-are/where-to-buy.html</code> после завершения настройки раздела представителей.</strong></p>
+          <ul>
+            <li>На сервере должна существовать папка <code>catalog/api/data/</code>, доступная PHP на запись.</li>
+            <li>Создайте или загрузите файл <code>catalog/api/data/dealers-ru.json</code>.</li>
+            <li>В <code>dealers-ru.json</code> должен быть минимум один представитель. Если файл пустой или в нём нет карточек, карта и редактор представителей могут работать некорректно.</li>
+            <li>Пользователь, который редактирует представителей, должен иметь право <code>dealers</code> в <code>catalog/api/config.local.php</code>.</li>
+            <li>После проверки откройте страницу на реальном домене, выберите регион, проверьте показ карточки и сохранение через «Редактировать контакты».</li>
+          </ul>
+          <p>Минимальный пример файла:</p>
+          <pre><code>{
+  "version": 1,
+  "byRegionId": {
+    "moscow": [
+      {
+        "saleType": "wholesale_retail",
+        "company": "New Site Demo Representative",
+        "address": "Москва, тестовый адрес",
+        "phones": ["+7 000 000-00-00"],
+        "email": "representative@example.com",
+        "website": "https://example.com"
+      }
+    ]
+  }
+}</code></pre>
+        </section>
+
+        <section class="section-block where-to-buy-map-section" aria-labelledby="where-to-buy-map-heading">
+          <h2 id="where-to-buy-map-heading" class="where-to-buy-map-section-heading">Дилеры и представители по регионам России</h2>
+
+          <div class="where-to-buy-map-shell" data-cromax-where-buy-map>
+            <div class="where-to-buy-map-inner">
+              <div class="where-to-buy-map-viz-col">
+                <div class="where-to-buy-region-combo">
+                  <input
+                    type="text"
+                    id="whereBuyRegionSearch"
+                    class="where-to-buy-region-search"
+                    autocomplete="off"
+                    autocorrect="off"
+                    spellcheck="false"
+                    placeholder="Начните ввод названия..."
+                    aria-autocomplete="list"
+                    aria-expanded="false"
+                    aria-controls="whereBuyRegionListbox"
+                    aria-label="Выберите регион"
+                    aria-describedby="where-to-buy-map-heading"
+                  />
+                  <ul
+                    id="whereBuyRegionListbox"
+                    class="where-to-buy-region-listbox"
+                    role="listbox"
+                    tabindex="-1"
+                    hidden
+                  ></ul>
+                </div>
+                <select id="whereBuyRegionSelect" class="where-to-buy-region-select visually-hidden" aria-hidden="true" tabindex="-1"></select>
+                <div class="where-to-buy-map-svg-wrap where-to-buy-svg-loading" aria-live="polite">
+                  <span class="where-to-buy-svg-loading-msg">Загрузка карты…</span>
+                  <div class="where-to-buy-map-zoom-shell">
+                    <div class="where-to-buy-map-viewport" id="whereBuyMapViewport" tabindex="0">
+                      <div
+                        id="whereBuyRegionHoverHint"
+                        class="where-to-buy-region-hover-hint"
+                        role="tooltip"
+                        aria-hidden="true"
+                        hidden
+                      ></div>
+                      <div class="where-to-buy-zoom-pan-layer" id="whereBuyZoomPanLayer">
+                        <div id="whereBuySvgMount" class="where-to-buy-svg-host"></div>
+                      </div>
+                    </div>
+                    <aside
+                      id="whereBuyZoomRail"
+                      class="where-to-buy-zoom-rail"
+                      aria-label="Масштаб карты"
+                    >
+                      <button type="button" class="btn where-to-buy-zoom-btn" id="whereBuyZoomIn" title="Увеличить" aria-label="Увеличить масштаб карты">
+                        <span aria-hidden="true">+</span>
+                      </button>
+                      <label class="where-to-buy-zoom-range-label visually-hidden" for="whereBuyZoomRange"
+                        >Масштаб, процентов</label
+                      >
+                      <div class="where-to-buy-zoom-range-wrap">
+                        <input
+                          type="range"
+                          id="whereBuyZoomRange"
+                          class="where-to-buy-zoom-range"
+                          min="100"
+                          max="350"
+                          step="5"
+                          value="100"
+                          aria-valuemin="100"
+                          aria-valuemax="350"
+                          aria-valuenow="100"
+                          aria-orientation="vertical"
+                        />
+                      </div>
+                      <button type="button" class="btn where-to-buy-zoom-btn" id="whereBuyZoomOut" title="Уменьшить" aria-label="Уменьшить масштаб карты">
+                        <span aria-hidden="true">−</span>
+                      </button>
+                    </aside>
+                  </div>
+                </div>
+              </div>
+
+              <aside class="where-to-buy-panel" aria-labelledby="whereBuyDealersPanelHeading">
+                <div id="whereBuyEditorToolbar" class="where-to-buy-edit-toolbar" hidden>
+                  <button type="button" class="btn btn-ghost btn-sm where-to-buy-edit-open-btn" id="whereBuyEditorOpen">Редактировать контакты</button>
+                </div>
+
+                <h3 id="whereBuyDealersPanelHeading" class="where-to-buy-panel-title">Регион ещё не выбран</h3>
+                <div id="whereBuyDealersPanelLive" class="where-to-buy-panel-live"></div>
+              </aside>
+            </div>
+
+            <div id="whereBuyEditorBackdrop" class="where-to-buy-editor-backdrop" hidden tabindex="-1">
+              <div class="where-to-buy-editor-sheet" role="dialog" aria-modal="true" aria-labelledby="whereBuyEditorTitle">
+                <header class="where-to-buy-editor-sheet-head">
+                  <h3 id="whereBuyEditorTitle" class="where-to-buy-editor-title">Редактирование контактов регионов</h3>
+                </header>
+                <div class="where-to-buy-editor-sheet-body">
+                  <label class="where-to-buy-editor-region-label cromax-field" for="whereBuyEditRegionSearch">
+                    <span>Регион</span>
+                    <span class="where-to-buy-editor-region-hint"
+                      >Поиск по первым буквам названия субъекта</span
+                    >
+                    <div class="where-to-buy-editor-region-combo">
+                      <input
+                        type="text"
+                        id="whereBuyEditRegionSearch"
+                        class="where-to-buy-region-search where-to-buy-editor-region-search"
+                        autocomplete="off"
+                        autocorrect="off"
+                        spellcheck="false"
+                        placeholder="Начните ввод названия…"
+                        aria-autocomplete="list"
+                        aria-expanded="false"
+                        aria-controls="whereBuyEditRegionListbox"
+                        aria-describedby="whereBuyEditorRegionHintDesc"
+                      />
+                      <span id="whereBuyEditorRegionHintDesc" class="visually-hidden"
+                        >Строка поиска региона для редактирования контактов</span
+                      >
+                      <ul
+                        id="whereBuyEditRegionListbox"
+                        class="where-to-buy-region-listbox where-to-buy-editor-region-listbox"
+                        role="listbox"
+                        tabindex="-1"
+                        hidden
+                      ></ul>
+                    </div>
+                    <select id="whereBuyEditRegion" class="where-to-buy-editor-region-select visually-hidden" aria-hidden="true" tabindex="-1"></select>
+                  </label>
+                  <div class="where-to-buy-editor-sheet-scroll">
+                    <p id="whereBuyEditError" class="where-to-buy-edit-error" hidden role="alert"></p>
+                    <div id="whereBuyEditList" class="where-to-buy-edit-list"></div>
+                  </div>
+                </div>
+                <footer class="where-to-buy-editor-sheet-foot">
+                  <div class="where-to-buy-editor-foot-actions">
+                    <button type="button" class="btn btn-ghost where-to-buy-editor-cancel" id="whereBuyEditorCancel">Отмена</button>
+                    <button type="button" class="btn btn-primary where-to-buy-editor-save" id="whereBuyEditorSave">Сохранить представителей</button>
+                  </div>
+                  <button type="button" class="btn btn-ghost btn-sm where-to-buy-editor-add-btn" id="whereBuyEditorAdd">Добавить нового представителя</button>
+                </footer>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+
+<!-- SITE_TEMPLATE:BEGIN site-bottom -->
+  <footer class="site-footer" aria-label="Подвал сайта">
+    <div class="container footer-inner">
+      <div class="footer-rule" aria-hidden="true"></div>
+
+      <div class="footer-columns-grid">
+        <nav class="footer-col" aria-label="Что такое Audurra?">
+          <h3 class="footer-col-title"><a href="../what-is-audurra/index.html">Что такое Audurra?</a></h3>
+          <ul class="footer-col-list">
+            <li><a href="../what-is-audurra/abrasives.html">Абразивы</a></li>
+            <li><a href="../what-is-audurra/masking.html">Маскировка</a></li>
+            <li><a href="../what-is-audurra/personal-protection.html">Средства защиты</a></li>
+            <li><a href="../what-is-audurra/paint-preparation.html">Подготовка к окраске</a></li>
+            <li><a href="../what-is-audurra/substrate-preparation.html">Подготовка подложки</a></li>
+            <li><a href="../what-is-audurra/paint-stands-storage-systems.html">Стойки и хранение</a></li>
+            <li><a href="../what-is-audurra/plastic-repair.html">Ремонт пластика</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-col" aria-label="Работа с Audurra?">
+          <h3 class="footer-col-title"><a href="../working-with-audurra/index.html">Работа с Audurra?</a></h3>
+          <ul class="footer-col-list">
+            <li><a href="../working-with-audurra/tds-sds.html">TDS / SDS</a></li>
+            <li><a href="../working-with-audurra/how-to-use-our-products.html">Как использовать продукцию</a></li>
+            <li><a href="../working-with-audurra/publications.html">Публикации</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer-col" aria-label="Зачем Audurra?">
+          <h3 class="footer-col-title"><a href="../why-audurra/index.html">Зачем Audurra?</a></h3>
+          <ul class="footer-col-list">
+            <li><a href="../why-audurra/faq.html">Частые вопросы</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-col footer-col--contact">
+          <a
+            class="footer-contact-link"
+            href="../contacts/contacts.html"
+            aria-label="Контакты: Axalta Coating Systems Germany GmbH &amp; Co. KG, Christbusch 25, 42285 Wuppertal, Германия"
+          >
+            <h3 class="footer-col-title">Контакты</h3>
+            <p class="footer-contact-name">Axalta Coating Systems Germany GmbH &amp; Co. KG</p>
+            <address class="footer-address">
+              Christbusch 25<br>
+              42285 Wuppertal<br>
+              Германия
+            </address>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="footer-rule" aria-hidden="true"></div>
+
+      <div class="footer-legal">
+        <p class="footer-trademark">Логотип Axalta, Axalta, Axalta Coating Systems и все наименования продуктов и услуг Axalta являются товарными знаками Axalta Coating Systems, LLC и/или её аффилированных лиц. Прочие товарные знаки принадлежат их владельцам.</p>
+        <div class="footer-legal-links">
+          <a href="../privacy-statement.html">Заявление о конфиденциальности</a>
+          <span class="footer-legal-sep" aria-hidden="true">|</span>
+          <a href="../privacy-statement.html">Условия использования</a>
+        </div>
+
+        <div class="footer-logos-row">
+          <a class="footer-logo-axalta" href="https://www.axalta.com" target="_blank" rel="noopener noreferrer nofollow">
+            <img src="../img/footer-axalta-official.svg" alt="Axalta Coating Systems" loading="lazy" decoding="async">
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <button
+    type="button"
+    class="btn btn-primary back-to-top"
+    id="backToTop"
+    aria-label="Наверх к началу страницы"
+    aria-hidden="true"
+  >
+    <i class="fa-solid fa-chevron-up" aria-hidden="true"></i>
+  </button>
+  <div data-nosnippet class="external-link-disclaimer" id="externalDisclaimer" aria-hidden="true">
+    <div class="disclaimer-card">
+      <img src="../img/audurra-logo.jpg" alt="Логотип Audurra" width="200" height="106">
+      <p class="disclaimer-card-title">Вы собираетесь покинуть этот сайт</p>
+      <p>Axalta не несёт ответственности за содержимое внешней страницы.</p>
+      <div class="disclaimer-actions">
+        <a href="#" class="btn btn-primary" id="continueExternal">Перейти на внешний сайт</a>
+        <button type="button" class="btn btn-ghost" id="cancelExternal">Отмена</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- SITE_TEMPLATE:END site-bottom -->
+<div data-nosnippet class="external-link-disclaimer" id="externalDisclaimer" aria-hidden="true">
+    <div class="disclaimer-card">
+      <img src="../img/cromax_logo4.png" alt="Логотип New Site">
+      <p class="disclaimer-card-title">Вы собираетесь покинуть этот сайт</p>
+      <p>New Site Россия не несет ответственности за содержимое страницы, которую вы открываете</p>
+      <div class="disclaimer-actions">
+        <a href="#" class="btn btn-primary" id="continueExternal">Перейти на внешний сайт</a>
+        <button type="button" class="btn btn-ghost" id="cancelExternal">Отмена</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="../script.js" defer></script>
+  <script src="../site-editor.js" defer></script>
+  <script src="../facet-sidebar.js" defer></script>
+  <script src="where-to-buy-map.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,451 @@
+{
+  "version": 1,
+  "generated": true,
+  "regions": [
+    {
+      "id": "RU-09_NR",
+      "label": "Luhans'k",
+      "isoHint": "RU-09_NR"
+    },
+    {
+      "id": "RU-14_NR",
+      "label": "Donets'k",
+      "isoHint": "RU-14_NR"
+    },
+    {
+      "id": "RU-23_NR",
+      "label": "Zaporizhzhya",
+      "isoHint": "RU-23_NR"
+    },
+    {
+      "id": "RU-65_NR",
+      "label": "Kherson",
+      "isoHint": "RU-65_NR"
+    },
+    {
+      "id": "RU-AD",
+      "label": "Adygey",
+      "isoHint": "RU-AD"
+    },
+    {
+      "id": "RU-AL",
+      "label": "Gorno-Altay",
+      "isoHint": "RU-AL"
+    },
+    {
+      "id": "RU-ALT",
+      "label": "Altay",
+      "isoHint": "RU-ALT"
+    },
+    {
+      "id": "RU-AMU",
+      "label": "Amur",
+      "isoHint": "RU-AMU"
+    },
+    {
+      "id": "RU-ARK",
+      "label": "Arkhangel'sk",
+      "isoHint": "RU-ARK"
+    },
+    {
+      "id": "RU-AST",
+      "label": "Astrakhan'",
+      "isoHint": "RU-AST"
+    },
+    {
+      "id": "RU-BA",
+      "label": "Bashkortostan",
+      "isoHint": "RU-BA"
+    },
+    {
+      "id": "RU-BEL",
+      "label": "Belgorod",
+      "isoHint": "RU-BEL"
+    },
+    {
+      "id": "RU-BRY",
+      "label": "Bryansk",
+      "isoHint": "RU-BRY"
+    },
+    {
+      "id": "RU-BU",
+      "label": "Buryat",
+      "isoHint": "RU-BU"
+    },
+    {
+      "id": "RU-CE",
+      "label": "Chechnya",
+      "isoHint": "RU-CE"
+    },
+    {
+      "id": "RU-CHE",
+      "label": "Chelyabinsk",
+      "isoHint": "RU-CHE"
+    },
+    {
+      "id": "RU-CHU",
+      "label": "Chukchi Autonomous Okrug",
+      "isoHint": "RU-CHU"
+    },
+    {
+      "id": "RU-CU",
+      "label": "Chuvash",
+      "isoHint": "RU-CU"
+    },
+    {
+      "id": "RU-DA",
+      "label": "Dagestan",
+      "isoHint": "RU-DA"
+    },
+    {
+      "id": "RU-IN",
+      "label": "Ingush",
+      "isoHint": "RU-IN"
+    },
+    {
+      "id": "RU-IRK",
+      "label": "Irkutsk",
+      "isoHint": "RU-IRK"
+    },
+    {
+      "id": "RU-IVA",
+      "label": "Ivanovo",
+      "isoHint": "RU-IVA"
+    },
+    {
+      "id": "RU-KAM",
+      "label": "Kamchatka",
+      "isoHint": "RU-KAM"
+    },
+    {
+      "id": "RU-KB",
+      "label": "Kabardin-Balkar",
+      "isoHint": "RU-KB"
+    },
+    {
+      "id": "RU-KC",
+      "label": "Karachay-Cherkess",
+      "isoHint": "RU-KC"
+    },
+    {
+      "id": "RU-KDA",
+      "label": "Krasnodar",
+      "isoHint": "RU-KDA"
+    },
+    {
+      "id": "RU-KEM",
+      "label": "Kemerovo",
+      "isoHint": "RU-KEM"
+    },
+    {
+      "id": "RU-KGD",
+      "label": "Kaliningrad",
+      "isoHint": "RU-KGD"
+    },
+    {
+      "id": "RU-KGN",
+      "label": "Kurgan",
+      "isoHint": "RU-KGN"
+    },
+    {
+      "id": "RU-KHA",
+      "label": "Khabarovsk",
+      "isoHint": "RU-KHA"
+    },
+    {
+      "id": "RU-KHM",
+      "label": "Khanty-Mansiy",
+      "isoHint": "RU-KHM"
+    },
+    {
+      "id": "RU-KIR",
+      "label": "Kirov",
+      "isoHint": "RU-KIR"
+    },
+    {
+      "id": "RU-KK",
+      "label": "Khakass",
+      "isoHint": "RU-KK"
+    },
+    {
+      "id": "RU-KL",
+      "label": "Kalmyk",
+      "isoHint": "RU-KL"
+    },
+    {
+      "id": "RU-KLU",
+      "label": "Kaluga",
+      "isoHint": "RU-KLU"
+    },
+    {
+      "id": "RU-KO",
+      "label": "Komi",
+      "isoHint": "RU-KO"
+    },
+    {
+      "id": "RU-KOS",
+      "label": "Kostroma",
+      "isoHint": "RU-KOS"
+    },
+    {
+      "id": "RU-KR",
+      "label": "Karelia",
+      "isoHint": "RU-KR"
+    },
+    {
+      "id": "RU-KRS",
+      "label": "Kursk",
+      "isoHint": "RU-KRS"
+    },
+    {
+      "id": "RU-KRY",
+      "label": "Crimea",
+      "isoHint": "RU-KRY"
+    },
+    {
+      "id": "RU-KYA",
+      "label": "Krasnoyarsk",
+      "isoHint": "RU-KYA"
+    },
+    {
+      "id": "RU-LEN",
+      "label": "Leningrad",
+      "isoHint": "RU-LEN"
+    },
+    {
+      "id": "RU-LIP",
+      "label": "Lipetsk",
+      "isoHint": "RU-LIP"
+    },
+    {
+      "id": "RU-MAG",
+      "label": "Maga Buryatdan",
+      "isoHint": "RU-MAG"
+    },
+    {
+      "id": "RU-ME",
+      "label": "Mariy-El",
+      "isoHint": "RU-ME"
+    },
+    {
+      "id": "RU-MO",
+      "label": "Mordovia",
+      "isoHint": "RU-MO"
+    },
+    {
+      "id": "RU-MOS",
+      "label": "Moscow Oblast",
+      "isoHint": "RU-MOS"
+    },
+    {
+      "id": "RU-MOW",
+      "label": "Moscow",
+      "isoHint": "RU-MOW"
+    },
+    {
+      "id": "RU-MUR",
+      "label": "Murmansk",
+      "isoHint": "RU-MUR"
+    },
+    {
+      "id": "RU-NEN",
+      "label": "Nenets",
+      "isoHint": "RU-NEN"
+    },
+    {
+      "id": "RU-NGR",
+      "label": "Novgorod",
+      "isoHint": "RU-NGR"
+    },
+    {
+      "id": "RU-NIZ",
+      "label": "Nizhegorod",
+      "isoHint": "RU-NIZ"
+    },
+    {
+      "id": "RU-NVS",
+      "label": "Novosibirsk",
+      "isoHint": "RU-NVS"
+    },
+    {
+      "id": "RU-OMS",
+      "label": "Omsk",
+      "isoHint": "RU-OMS"
+    },
+    {
+      "id": "RU-ORE",
+      "label": "Orenburg",
+      "isoHint": "RU-ORE"
+    },
+    {
+      "id": "RU-ORL",
+      "label": "Orel",
+      "isoHint": "RU-ORL"
+    },
+    {
+      "id": "RU-PER",
+      "label": "Perm'",
+      "isoHint": "RU-PER"
+    },
+    {
+      "id": "RU-PNZ",
+      "label": "Penza",
+      "isoHint": "RU-PNZ"
+    },
+    {
+      "id": "RU-PRI",
+      "label": "Primor'ye",
+      "isoHint": "RU-PRI"
+    },
+    {
+      "id": "RU-PSK",
+      "label": "Pskov",
+      "isoHint": "RU-PSK"
+    },
+    {
+      "id": "RU-ROS",
+      "label": "Rostov",
+      "isoHint": "RU-ROS"
+    },
+    {
+      "id": "RU-RYA",
+      "label": "Ryazan'",
+      "isoHint": "RU-RYA"
+    },
+    {
+      "id": "RU-SA",
+      "label": "Sakha (Yakutia)",
+      "isoHint": "RU-SA"
+    },
+    {
+      "id": "RU-SAK",
+      "label": "Sakhalin",
+      "isoHint": "RU-SAK"
+    },
+    {
+      "id": "RU-SAM",
+      "label": "Samara",
+      "isoHint": "RU-SAM"
+    },
+    {
+      "id": "RU-SAR",
+      "label": "Saratov",
+      "isoHint": "RU-SAR"
+    },
+    {
+      "id": "RU-SE",
+      "label": "North Ossetia",
+      "isoHint": "RU-SE"
+    },
+    {
+      "id": "RU-SEV",
+      "label": "Sevastopol",
+      "isoHint": "RU-SEV"
+    },
+    {
+      "id": "RU-SMO",
+      "label": "Smolensk",
+      "isoHint": "RU-SMO"
+    },
+    {
+      "id": "RU-SPE",
+      "label": "City of St. Petersburg",
+      "isoHint": "RU-SPE"
+    },
+    {
+      "id": "RU-STA",
+      "label": "Stavropol'",
+      "isoHint": "RU-STA"
+    },
+    {
+      "id": "RU-SVE",
+      "label": "Sverdlovsk",
+      "isoHint": "RU-SVE"
+    },
+    {
+      "id": "RU-TA",
+      "label": "Tatarstan",
+      "isoHint": "RU-TA"
+    },
+    {
+      "id": "RU-TAM",
+      "label": "Tambov",
+      "isoHint": "RU-TAM"
+    },
+    {
+      "id": "RU-TOM",
+      "label": "Tomsk",
+      "isoHint": "RU-TOM"
+    },
+    {
+      "id": "RU-TUL",
+      "label": "Tula",
+      "isoHint": "RU-TUL"
+    },
+    {
+      "id": "RU-TVE",
+      "label": "Tver'",
+      "isoHint": "RU-TVE"
+    },
+    {
+      "id": "RU-TY",
+      "label": "Tuva",
+      "isoHint": "RU-TY"
+    },
+    {
+      "id": "RU-TYU",
+      "label": "Tyumen'",
+      "isoHint": "RU-TYU"
+    },
+    {
+      "id": "RU-UD",
+      "label": "Udmurt",
+      "isoHint": "RU-UD"
+    },
+    {
+      "id": "RU-ULY",
+      "label": "Ul'yanovsk",
+      "isoHint": "RU-ULY"
+    },
+    {
+      "id": "RU-VGG",
+      "label": "Volgograd",
+      "isoHint": "RU-VGG"
+    },
+    {
+      "id": "RU-VLA",
+      "label": "Vladimir",
+      "isoHint": "RU-VLA"
+    },
+    {
+      "id": "RU-VLG",
+      "label": "Vologda",
+      "isoHint": "RU-VLG"
+    },
+    {
+      "id": "RU-VOR",
+      "label": "Voronezh",
+      "isoHint": "RU-VOR"
+    },
+    {
+      "id": "RU-YAN",
+      "label": "Yamal-Nenets",
+      "isoHint": "RU-YAN"
+    },
+    {
+      "id": "RU-YAR",
+      "label": "Yaroslavl'",
+      "isoHint": "RU-YAR"
+    },
+    {
+      "id": "RU-YEV",
+      "label": "Yevrey",
+      "isoHint": "RU-YEV"
+    },
+    {
+      "id": "RU-ZAB",
+      "label": "Chita",
+      "isoHint": "RU-ZAB"
+    }
+  ]
+}

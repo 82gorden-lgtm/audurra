@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "byRegionId": {
+    "moscow": [
+      {
+        "saleType": "wholesale_retail",
+        "company": "New Site Demo Representative",
+        "address": "Москва, тестовый адрес",
+        "phones": [
+          "+7 000 000-00-00"
+        ],
+        "email": "representative@example.com",
+        "website": "https://example.com"
+      }
+    ]
+  }
+}

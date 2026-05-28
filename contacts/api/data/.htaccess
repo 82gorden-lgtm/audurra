@@ -1,0 +1,4 @@
+# Счётчики и служебные данные не должны отдаваться как статика
+<IfModule mod_authz_core.c>
+  Require all denied
+</IfModule>
