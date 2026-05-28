@@ -4117,6 +4117,7 @@ img {
   font-family: "Titillium Web", Arial, sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
+  text-align: center;
   color: #222;
 }
 
@@ -4128,6 +4129,7 @@ img {
   margin: 1.25em 0 0.5em;
   font-size: 1.05rem;
   font-weight: 700;
+  text-align: center;
   color: #333;
 }
 
@@ -6456,6 +6458,7 @@ img.color-mood-hero {
   line-height: 1.3;
   letter-spacing: 0;
   text-transform: uppercase;
+  text-align: center;
   color: var(--where-buy-accent);
 }
 
@@ -12204,6 +12207,7 @@ button.axalta-academy-video-thumb {
   font-weight: 700;
   letter-spacing: normal;
   text-transform: none;
+  text-align: center;
   color: #e63c28;
   line-height: 1.3;
 }

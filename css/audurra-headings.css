@@ -1,0 +1,187 @@
+/**
+ * Audurra theme_color1 — единая типографика H1–H3 (axbase / оригинал).
+ * H1: 30px #c82127 + hr 227×2px; H2: 22px; H3: 20px; Lato 500; отступы как на axalta.com.
+ */
+
+:root {
+  --audurra-heading-red: #c82127;
+  --audurra-heading-font: Lato, Arial, Helvetica, sans-serif;
+  --audurra-h1-size: 30px;
+  --audurra-h2-size: 22px;
+  --audurra-h3-size: 20px;
+  --audurra-headline-lead-size: 20px;
+  --audurra-heading-weight: 500;
+  --audurra-heading-lh: 1.3;
+  --audurra-rule-width: 227px;
+  --audurra-h2-mb: 25px;
+  --audurra-h3-mb: 10px;
+  --audurra-h1-rule-mt: 10px;
+  --audurra-h1-rule-mb: 35px;
+}
+
+/* --- Контейнеры: выравнивание по центру --- */
+main.catalog-page .headlineContent,
+main.catalog-page .audurra-home-scope > .component.headline,
+main.catalog-page.landing-page-page .landing-page-scope.headlineContent,
+main.catalog-page.where-to-buy-page .where-to-buy-header,
+main.catalog-page.contact-page-eu .headlineContent {
+  text-align: center;
+}
+
+/* --- H1 --- */
+main.catalog-page .headlineContent h1,
+main.catalog-page .headlineContent .component.headline h1,
+main.catalog-page .facetMain [class*="-scope"] .headlineContent h1,
+main.catalog-page .catalog-page-header h1.catalog-page-title,
+main.catalog-page .where-to-buy-header h1.where-to-buy-title,
+main.catalog-page.contact-page-eu .headlineContent h1 {
+  margin: 0;
+  padding: 0;
+  font-family: var(--audurra-heading-font);
+  font-size: var(--audurra-h1-size);
+  font-weight: var(--audurra-heading-weight);
+  line-height: var(--audurra-heading-lh);
+  text-transform: none;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--audurra-heading-red);
+}
+
+/* Главная: h2 в .component.headline = заголовок страницы (как H1 на оригинале) */
+main.catalog-page.audurra-home-page .audurra-home-scope > .component.headline > h2 {
+  margin: 0;
+  padding: 0;
+  font-family: var(--audurra-heading-font);
+  font-size: var(--audurra-h1-size);
+  font-weight: var(--audurra-heading-weight);
+  line-height: var(--audurra-heading-lh);
+  text-transform: none;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--audurra-heading-red);
+}
+
+/* --- H2 в контенте --- */
+main.catalog-page .headlineContent .component.headline h2,
+main.catalog-page .headlineContent h2.landing-page-lead,
+main.catalog-page .facetMain [class*="-scope"] .component.textComponent h2,
+main.catalog-page .facetMain [class*="-scope"] .headlineContent h2,
+main.catalog-page .catalog-page-inner > .section-block > h2,
+main.catalog-page .catalog-page-inner > .section-block .textComponent h2,
+main.catalog-page .legal-document-body h2 {
+  margin: 0 0 var(--audurra-h2-mb);
+  padding: 0;
+  font-family: var(--audurra-heading-font);
+  font-size: var(--audurra-h2-size);
+  font-weight: var(--audurra-heading-weight);
+  line-height: var(--audurra-heading-lh);
+  text-transform: none;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--audurra-heading-red);
+}
+
+/* Главная: h3 в .component.headline = подзаголовок (как H2 lead) */
+main.catalog-page.audurra-home-page .audurra-home-scope > .component.headline > h3 {
+  margin: 0 0 1em;
+  padding: 0;
+  font-family: var(--audurra-heading-font);
+  font-size: var(--audurra-headline-lead-size);
+  font-weight: var(--audurra-heading-weight);
+  line-height: var(--audurra-heading-lh);
+  text-transform: none;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--audurra-heading-red);
+}
+
+/* --- H3 в контенте --- */
+main.catalog-page .facetMain [class*="-scope"] .component.textComponent h3,
+main.catalog-page .facetMain [class*="-scope"] .component.mediaTeaser .text h3,
+main.catalog-page.audurra-home-page .audurra-home-teaser-text h3,
+main.catalog-page.audurra-home-page .audurra-home-icon-tile h3,
+main.catalog-page.audurra-home-page .audurra-home-video-copy h3,
+main.catalog-page .where-to-buy-copy h3,
+main.catalog-page .legal-document-body h3 {
+  margin: 0 0 var(--audurra-h3-mb);
+  padding: 0;
+  font-family: var(--audurra-heading-font);
+  font-size: var(--audurra-h3-size);
+  font-weight: var(--audurra-heading-weight);
+  line-height: var(--audurra-heading-lh);
+  text-transform: none;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--audurra-heading-red);
+}
+
+/* --- Красная линия под H1 --- */
+main.catalog-page .headlineContent hr,
+main.catalog-page .facetMain [class*="-scope"] .headlineContent hr,
+main.catalog-page.audurra-home-scope > .component.headline hr,
+main.catalog-page.contact-page-eu .headlineContent hr[class*="rule"],
+main.catalog-page .where-to-buy-title-rule {
+  display: block;
+  width: var(--audurra-rule-width);
+  max-width: 100%;
+  height: 0;
+  margin: var(--audurra-h1-rule-mt) auto var(--audurra-h1-rule-mb);
+  padding: 0;
+  border: 0;
+  border-top: 2px solid var(--audurra-heading-red);
+  background: transparent;
+}
+
+/* Каталог: красная линия вместо серой */
+main.catalog-page .catalog-content .catalog-page-title::after {
+  width: var(--audurra-rule-width);
+  max-width: 100%;
+  height: 0;
+  margin: var(--audurra-h1-rule-mt) auto 0;
+  border: 0;
+  border-top: 2px solid var(--audurra-heading-red);
+  background: transparent;
+}
+
+/* H1 без hr в разметке */
+main.catalog-page .headlineContent > h1::after,
+main.catalog-page .headlineContent .component.headline h1:not(:has(+ hr))::after,
+main.catalog-page.landing-page-page .landing-page-scope.headlineContent h1.landing-page-h1::after {
+  content: "";
+  display: block;
+  width: var(--audurra-rule-width);
+  max-width: 100%;
+  height: 0;
+  margin: var(--audurra-h1-rule-mt) auto var(--audurra-h1-rule-mb);
+  border: 0;
+  border-top: 2px solid var(--audurra-heading-red);
+  background: transparent;
+}
+
+main.catalog-page .headlineContent .component.headline h1:has(+ hr)::after,
+main.catalog-page.landing-page-page .landing-page-scope.headlineContent h1.landing-page-h1:has(+ hr)::after {
+  content: none;
+  display: none;
+  margin: 0;
+  border: 0;
+}
+
+/* Публикации: подчёркнутый H2 */
+main.catalog-page .facetMain .working-with-audurra-scope .component.textComponent h2.wwa-section-h2--underline {
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Мобильный H1 — axbase 767px */
+@media (max-width: 767px) {
+  main.catalog-page .headlineContent h1,
+  main.catalog-page .headlineContent .component.headline h1,
+  main.catalog-page .facetMain [class*="-scope"] .headlineContent h1,
+  main.catalog-page .catalog-page-header h1.catalog-page-title,
+  main.catalog-page .where-to-buy-header h1.where-to-buy-title,
+  main.catalog-page.contact-page-eu .headlineContent h1,
+  main.catalog-page.audurra-home-page .audurra-home-scope > .component.headline > h2 {
+    font-size: 26px;
+  }
+}

@@ -72,6 +72,8 @@
 
   letter-spacing: normal;
 
+  text-align: center;
+
   color: #c82127;
 
 }
@@ -88,7 +90,7 @@
 
   height: 0;
 
-  margin: 10px 0 35px;
+  margin: 10px auto 35px;
 
   padding: 0;
 
@@ -149,6 +151,8 @@
   text-transform: none;
 
   letter-spacing: normal;
+
+  text-align: center;
 
   color: #c82127;
 
@@ -958,7 +962,7 @@
 
 
 
-/* publications.html — underlined section h2 (source: h2 u, left-aligned) */
+/* publications.html — underlined section h2 (source: h2 u, centered) */
 
 .working-with-audurra-page .working-with-audurra-scope .component.textComponent h2.wwa-section-h2--underline,
 
@@ -966,7 +970,7 @@
 
   margin: 0 0 25px;
 
-  text-align: left;
+  text-align: center;
 
   text-decoration: underline;
 
