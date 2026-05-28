@@ -61,7 +61,7 @@ main.catalog-page.audurra-home-page .audurra-home-scope > .component.headline > 
   text-transform: none;
   letter-spacing: normal;
   text-align: center;
-  color: var(--audurra-heading-red);
+  color: rgba(33, 202, 44, 1);
 }
 
 /* --- H2 в контенте --- */

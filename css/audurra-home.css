@@ -13,7 +13,7 @@ main.catalog-page.audurra-home-page .audurra-home-scope {
   text-transform: none;
   text-align: center;
   margin: 0 0 0.35em;
-  color: #c82127;
+  color: rgba(33, 202, 44, 1);
 }
 
 .audurra-home-scope .component.headline h3 {
