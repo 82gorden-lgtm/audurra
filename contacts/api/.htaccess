@@ -1,7 +1,0 @@
-# Блокировка прямого доступа к локальному конфигу
-<IfModule mod_authz_core.c>
-  <Files "config.local.php">
-    Require all denied
-  </Files>
-</IfModule>
-Options -Indexes
