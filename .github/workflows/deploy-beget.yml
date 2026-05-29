@@ -5,8 +5,8 @@
 #   BEGET_FTP_USER     - FTP user
 #   BEGET_FTP_PASSWORD - FTP password
 #
-# GitHub variable:
-#   BEGET_SERVER_DIR   - target directory, for example: new-site.ru/public_html/
+# GitHub variable (optional override):
+#   BEGET_SERVER_DIR   - defaults to audurra.ru/public_html/
 #
 # Server-only files after first deploy:
 #   catalog/api/config.local.php   - users and password hashes
@@ -44,7 +44,7 @@ jobs:
           username: ${{ secrets.BEGET_FTP_USER }}
           password: ${{ secrets.BEGET_FTP_PASSWORD }}
           local-dir: ./
-          server-dir: ${{ vars.BEGET_SERVER_DIR }}
+          server-dir: audurra.ru/public_html/
           log-level: standard
           exclude: |
             **/.git*

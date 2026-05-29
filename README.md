@@ -95,7 +95,7 @@ php -r "echo password_hash('ваш_пароль', PASSWORD_DEFAULT), PHP_EOL;"
 
 ## Деплой Beget
 
-Workflow находится в `.github/workflows/deploy-beget.yml`. В GitHub задайте secrets `BEGET_FTP_HOST`, `BEGET_FTP_USER`, `BEGET_FTP_PASSWORD` и variable `BEGET_SERVER_DIR`, например `new-site.ru/public_html/`.
+Workflow находится в `.github/workflows/deploy-beget.yml`. Задайте secrets `BEGET_FTP_HOST`, `BEGET_FTP_USER`, `BEGET_FTP_PASSWORD`. Целевая папка на Beget зафиксирована в workflow: `audurra.ru/public_html/`.
 
 После первого деплоя вручную загрузите на сервер реальные `config.local.php` для каталога и контактов. Не храните пароли и SMTP-секреты в репозитории.
 
@@ -191,5 +191,5 @@ PHP может создать файл:
 
 - Откройте `index.html`, `catalog/index.html`, `catalog/product.html?sku=TEST-001`, `search.html`, `contacts/contacts.html`, `who-we-are/where-to-buy.html`.
 - Проверьте, что `node tools/build-search-index.mjs` обновляет `search-index.js`.
-- Проверьте, что в workflow указан `BEGET_SERVER_DIR` для нужного сайта.
+- Проверьте, что деплой идёт в `audurra.ru/public_html/` (см. `.github/workflows/deploy-beget.yml`).
 - Проверьте, что реальные `config.local.php` не попали в репозиторий.
