@@ -1,0 +1,15 @@
+# Local credentials and server-generated state
+catalog/api/config.local.php
+contacts/api/config.local.php
+contacts/api/data/rate_state.json
+catalog/api/data/product-overrides.json
+catalog/api/data/page-text-overrides.json
+catalog/api/data/audit.log
+
+# Dependencies and temporary files
+node_modules/
+tmp/
+tmp-screens/
+.cursor/
+__pycache__/
+*.pyc

@@ -1,0 +1,989 @@
+/**
+
+ * working-with-audurra/index.html — scoped replica (theme_color1 / Audurra axbase)
+
+ * Style matrix (source Computed @ 1440px):
+
+ * - body: #1e1e1e, 16px/22px
+
+ * - H1: #c82127, 30px, weight 500, lh 1.3
+
+ * - HR: 227px × 2px #c82127, mt 10px mb 35px
+
+ * - section H2 (centered): #c82127, 22px, weight 500
+
+ * - item H3: #c82127, 20px, weight 500
+
+ * - CTA btn-default: #c82127 text/border; hover bg #c82127 text #fff
+
+ */
+
+
+
+.working-with-audurra-page .working-with-audurra-scope {
+
+  color: #1e1e1e;
+
+  font-family: Lato, Arial, Helvetica, sans-serif;
+
+  font-size: 16px;
+
+  line-height: 22px;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .headlineContent {
+
+  margin-bottom: 0;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .headlineContent .component.headline {
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .headlineContent h1.wwa-page-h1,
+
+.working-with-audurra-page .section-block .working-with-audurra-scope .headlineContent h1.wwa-page-h1 {
+
+  margin: 0;
+
+  padding: 0;
+
+  font-family: Lato, Arial, Helvetica, sans-serif;
+
+  font-size: 30px;
+
+  font-weight: 500;
+
+  line-height: 1.3;
+
+  text-transform: none;
+
+  letter-spacing: normal;
+
+  text-align: center;
+
+  color: #c82127;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .headlineContent hr.wwa-page-rule {
+
+  display: block;
+
+  width: 227px;
+
+  max-width: 100%;
+
+  height: 0;
+
+  margin: 10px auto 35px;
+
+  padding: 0;
+
+  border: 0;
+
+  border-top: 2px solid #c82127;
+
+  background: transparent;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.textComponent h2.wwa-section-h2,
+
+.working-with-audurra-page .section-block .working-with-audurra-scope .component.textComponent h2.wwa-section-h2 {
+
+  margin: 0 0 25px;
+
+  padding: 0;
+
+  font-family: Lato, Arial, Helvetica, sans-serif;
+
+  font-size: 22px;
+
+  font-weight: 500;
+
+  line-height: 1.3;
+
+  text-transform: none;
+
+  letter-spacing: normal;
+
+  text-align: center;
+
+  color: #c82127;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.textComponent h3.wwa-item-h3,
+
+.working-with-audurra-page .section-block .working-with-audurra-scope .component.textComponent h3.wwa-item-h3 {
+
+  margin: 0 0 12px;
+
+  padding: 0;
+
+  font-family: Lato, Arial, Helvetica, sans-serif;
+
+  font-size: 20px;
+
+  font-weight: 500;
+
+  line-height: 1.3;
+
+  text-transform: none;
+
+  letter-spacing: normal;
+
+  text-align: center;
+
+  color: #c82127;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.textComponent p {
+
+  margin: 0 0 15px;
+
+  font-size: 16px;
+
+  font-weight: 400;
+
+  line-height: 22px;
+
+  color: #1e1e1e;
+
+  text-transform: none;
+
+  letter-spacing: normal;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-section-block {
+
+  margin-bottom: 10px;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-video-row,
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-brand-row {
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  margin: 0 -15px;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-video-col,
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-brand-col {
+
+  box-sizing: border-box;
+
+  width: 100%;
+
+  padding: 0 15px 30px;
+
+}
+
+
+
+@media (min-width: 768px) {
+
+  .working-with-audurra-page .working-with-audurra-scope .wwa-video-col,
+
+  .working-with-audurra-page .working-with-audurra-scope .wwa-brand-col {
+
+    width: 33.333333%;
+
+  }
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.htmlSourceCode.wwa-wistia-wrap {
+
+  margin: 0 0 10px;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.mediaTeaser {
+
+  margin: 0 0 12px;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.mediaTeaser > a {
+
+  display: block;
+
+  text-decoration: none;
+
+  color: inherit;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.mediaTeaser .img {
+
+  display: block;
+
+  margin: 0;
+
+  overflow: hidden;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.mediaTeaser .img picture,
+
+.working-with-audurra-page .working-with-audurra-scope .component.mediaTeaser .img img {
+
+  display: block;
+
+  width: 100%;
+
+  height: auto;
+
+  aspect-ratio: 16 / 9;
+
+  object-fit: cover;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.button.center {
+
+  margin: 0;
+
+  padding: 0;
+
+  text-align: center;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.button.center .btn.btn-default {
+
+  display: inline-block;
+
+  margin: 0 0 5px;
+
+  padding: 10px 31px 11px;
+
+  font-family: Lato, Arial, Helvetica, sans-serif;
+
+  font-size: 14px;
+
+  font-weight: 400;
+
+  line-height: 20px;
+
+  text-transform: none;
+
+  letter-spacing: normal;
+
+  text-decoration: none;
+
+  color: #c82127;
+
+  background: #fff;
+
+  border: 2px solid #c82127;
+
+  border-radius: 0;
+
+  box-shadow: none;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.button.center .btn.btn-default:hover,
+
+.working-with-audurra-page .working-with-audurra-scope .component.button.center .btn.btn-default:focus-visible {
+
+  color: #fff;
+
+  background: #c82127;
+
+  border-color: #c82127;
+
+  text-decoration: none;
+
+  outline: none;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.button.center .btn.btn-default:active {
+
+  color: #fff;
+
+  background: #b01d22;
+
+  border-color: #b01d22;
+
+}
+
+
+
+@media (max-width: 767px) {
+
+  .working-with-audurra-page .working-with-audurra-scope .headlineContent h1.wwa-page-h1,
+
+  .working-with-audurra-page .section-block .working-with-audurra-scope .headlineContent h1.wwa-page-h1 {
+
+    font-size: 26px;
+
+  }
+
+}
+
+
+
+/* how-to-use-our-products.html — section dividers + flipBookReader */
+
+.working-with-audurra-page .working-with-audurra-scope .component.horizontalLine.wwa-section-hr {
+
+  margin: 0 0 25px;
+
+  clear: both;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.horizontalLine.wwa-section-hr hr {
+
+  margin: 0;
+
+  padding: 0;
+
+  border: 0;
+
+  border-top: 1px solid #c8c8c8;
+
+  background: transparent;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-section-block--manuals .component.horizontalLine.wwa-section-hr:first-child {
+
+  margin-top: 10px;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.textComponent h3.wwa-item-h3--center,
+
+.working-with-audurra-page .section-block .working-with-audurra-scope .component.textComponent h3.wwa-item-h3--center {
+
+  text-align: center;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.flipBookReader {
+
+  margin: 0;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.flipBookReader img {
+
+  display: inline-block;
+
+  max-width: 100%;
+
+  height: auto;
+
+  margin: 0 0 17px;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.flipBookReader section {
+
+  display: table;
+
+  width: 100%;
+
+  table-layout: fixed;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.flipBookReader section article {
+
+  display: table-cell;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.flipBookReader section article div span {
+
+  text-align: left;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.flipBookReader span a {
+
+  display: block;
+
+  position: relative;
+
+  padding-left: 24px;
+
+  margin: 0;
+
+  font-family: Lato, Arial, Helvetica, sans-serif;
+
+  font-size: 15px;
+
+  font-weight: 400;
+
+  line-height: 1.45;
+
+  color: #868686;
+
+  text-decoration: none;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.flipBookReader span a + a {
+
+  margin-top: 6px;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.flipBookReader span a::before {
+
+  font-family: "Linearicons", "Axalta Linearicons", sans-serif;
+
+  speak: none;
+
+  font-style: normal;
+
+  font-weight: normal;
+
+  font-variant: normal;
+
+  text-transform: none;
+
+  line-height: 1;
+
+  -webkit-font-feature-settings: "liga";
+
+  font-feature-settings: "liga";
+
+  -webkit-font-smoothing: antialiased;
+
+  -moz-osx-font-smoothing: grayscale;
+
+  position: absolute;
+
+  left: 0;
+
+  top: 4px;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.flipBookReader span a.open::before {
+
+  content: "\e944";
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.flipBookReader span a.download::before {
+
+  content: "\e8f5";
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .component.flipBookReader span a:hover,
+
+.working-with-audurra-page .working-with-audurra-scope .component.flipBookReader span a:focus-visible {
+
+  text-decoration: none;
+
+  color: #02143a;
+
+  outline: none;
+
+}
+
+
+
+/* tds-sds.html — accordion + PDF table (source: theme_color1 / dynamicDownload) */
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-tds-section {
+
+  margin-bottom: 0;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-doc-accordion {
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-accordion-section {
+
+  margin: 0;
+
+  border-top: 1px solid #c8c8c8;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-accordion-section:last-child {
+
+  border-bottom: 1px solid #c8c8c8;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-accordion-trigger.wwa-accordion-h3,
+
+.working-with-audurra-page .section-block .working-with-audurra-scope .wwa-accordion-trigger.wwa-accordion-h3 {
+
+  display: block;
+
+  width: 100%;
+
+  margin: 0;
+
+  padding: 18px 16px 18px 51px;
+
+  border: 0;
+
+  background: transparent;
+
+  text-align: left;
+
+  cursor: pointer;
+
+  position: relative;
+
+  font-family: Lato, Arial, Helvetica, sans-serif;
+
+  font-size: 20px;
+
+  font-weight: 500;
+
+  line-height: 1.3;
+
+  text-transform: none;
+
+  letter-spacing: normal;
+
+  color: #c82127;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-accordion-trigger.wwa-accordion-h3::before {
+
+  content: "\e938";
+
+  position: absolute;
+
+  left: 17px;
+
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  font-family: "Linearicons", "Axalta Linearicons", sans-serif;
+
+  font-size: 24px;
+
+  font-weight: normal;
+
+  line-height: 1;
+
+  color: #c82127;
+
+  speak: none;
+
+  -webkit-font-smoothing: antialiased;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-accordion-section.active .wwa-accordion-trigger.wwa-accordion-h3::before {
+
+  content: "\e939";
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-accordion-trigger.wwa-accordion-h3:hover,
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-accordion-trigger.wwa-accordion-h3:focus-visible {
+
+  color: #c82127;
+
+  outline: none;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-accordion-trigger.wwa-accordion-h3:focus-visible {
+
+  box-shadow: inset 0 0 0 2px #c82127;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-accordion-article {
+
+  display: none;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-accordion-section.active .wwa-accordion-article {
+
+  display: block;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-accordion-panel {
+
+  padding: 45px 48px;
+
+  background: #eaeaea;
+
+  box-sizing: border-box;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-doc-empty {
+
+  margin: 0;
+
+  font-size: 16px;
+
+  line-height: 22px;
+
+  color: #1e1e1e;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-dynamic-download {
+
+  margin: 0;
+
+  padding: 0;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-doc-table {
+
+  width: 100%;
+
+  border-collapse: collapse;
+
+  border-spacing: 0;
+
+  margin: 0;
+
+  background: #fff;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-doc-table thead th {
+
+  padding: 12px 14px;
+
+  font-family: Lato, Arial, Helvetica, sans-serif;
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  line-height: 1.3;
+
+  text-transform: none;
+
+  letter-spacing: normal;
+
+  text-align: left;
+
+  color: #1e1e1e;
+
+  background: #f5f5f5;
+
+  border-bottom: 1px solid #ddd;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-doc-table tbody tr {
+
+  border-bottom: 1px solid #ddd;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-doc-table tbody td {
+
+  padding: 14px;
+
+  vertical-align: top;
+
+  font-size: 16px;
+
+  line-height: 22px;
+
+  color: #1e1e1e;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-doc-type {
+
+  width: 56px;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-doc-type .iconType {
+
+  width: 38px;
+
+  height: 38px;
+
+  background: #c82127;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-doc-type .acrobat::before {
+
+  content: "\e600";
+
+  display: block;
+
+  color: #fff;
+
+  font-family: "Axalta", sans-serif;
+
+  font-size: 30px;
+
+  font-style: normal;
+
+  font-weight: normal;
+
+  line-height: 38px;
+
+  -webkit-font-smoothing: antialiased;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-doc-link {
+
+  font-weight: 700;
+
+  color: #c82127;
+
+  text-decoration: none;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-doc-link:hover,
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-doc-link:focus-visible {
+
+  color: #c82127;
+
+  text-decoration: underline;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-doc-meta-mobile {
+
+  display: none;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-doc-meta-mobile .file {
+
+  font-size: 14px;
+
+  color: #555;
+
+}
+
+
+
+@media (max-width: 991px) {
+
+  .working-with-audurra-page .working-with-audurra-scope .wwa-doc-date-col,
+
+  .working-with-audurra-page .working-with-audurra-scope .wwa-doc-size-col,
+
+  .working-with-audurra-page .working-with-audurra-scope .wwa-doc-date,
+
+  .working-with-audurra-page .working-with-audurra-scope .wwa-doc-size {
+
+    display: none;
+
+  }
+
+
+
+  .working-with-audurra-page .working-with-audurra-scope .wwa-doc-meta-mobile {
+
+    display: block;
+
+    margin-top: 4px;
+
+  }
+
+}
+
+
+
+@media (max-width: 767px) {
+
+  .working-with-audurra-page .working-with-audurra-scope .wwa-accordion-panel {
+
+    padding: 54px 45px 60px;
+
+  }
+
+}
+
+
+
+/* publications.html — underlined section h2 (source: h2 u, centered) */
+
+.working-with-audurra-page .working-with-audurra-scope .component.textComponent h2.wwa-section-h2--underline,
+
+.working-with-audurra-page .section-block .working-with-audurra-scope .component.textComponent h2.wwa-section-h2--underline {
+
+  margin: 0 0 25px;
+
+  text-align: center;
+
+  text-decoration: underline;
+
+  text-underline-offset: 2px;
+
+}
+
+
+
+.working-with-audurra-page .working-with-audurra-scope .wwa-section-block--pub {
+
+  margin-bottom: 10px;
+
+}
+
+

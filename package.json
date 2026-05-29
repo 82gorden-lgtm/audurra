@@ -1,0 +1,13 @@
+{
+  "name": "new-site-template",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/site-chrome.mjs && node tools/build-search-index.mjs",
+    "chrome:build": "node tools/site-chrome.mjs",
+    "chrome:migrate": "node tools/site-chrome.mjs --migrate",
+    "search:build": "node tools/build-search-index.mjs",
+    "cromax:build": "npm run chrome:build",
+    "cromax:migrate": "npm run chrome:migrate"
+  }
+}

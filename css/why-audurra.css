@@ -1,0 +1,274 @@
+/**
+ * why-audurra/index.html — scoped replica (theme_color1 / Audurra axbase)
+ * Style matrix (source Computed @ 1440px):
+ * - body: #1e1e1e, 16px/22px, mb 15px
+ * - H1: #c82127, 30px, weight 500, lh 39px, text-transform none
+ * - HR: 227px × 2px #c82127, mt 10px mb 40px
+ * - CTA btn-default: #c82127 text/border, 14px/20px, padding 10px 31px 11px, centered
+ * - CTA hover: bg #c82127, text #fff
+ */
+
+.why-audurra-page .why-audurra-scope {
+  color: #1e1e1e;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.why-audurra-page .why-audurra-scope .headlineContent {
+  margin-bottom: 0;
+}
+
+.why-audurra-page .why-audurra-scope .headlineContent .component.headline {
+  margin: 0;
+  padding: 0;
+}
+
+.why-audurra-page .why-audurra-scope .headlineContent h1.wa-page-h1,
+.why-audurra-page .section-block .why-audurra-scope .headlineContent h1.wa-page-h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-transform: none;
+  letter-spacing: normal;
+  text-align: center;
+  color: #c82127;
+}
+
+.why-audurra-page .why-audurra-scope .headlineContent hr.wa-page-rule {
+  display: block;
+  width: 227px;
+  max-width: 100%;
+  height: 0;
+  margin: 10px auto 40px;
+  padding: 0;
+  border: 0;
+  border-top: 2px solid #c82127;
+  background: transparent;
+}
+
+.why-audurra-page .why-audurra-scope .component.textComponent.wa-intro-text {
+  margin: 0 0 10px;
+}
+
+.why-audurra-page .why-audurra-scope .component.textComponent.wa-intro-text p {
+  margin: 0 0 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #1e1e1e;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.why-audurra-page .why-audurra-scope .component.button.center.wa-faq-cta {
+  margin: 0 0 5px;
+  padding: 0;
+  text-align: center;
+}
+
+.why-audurra-page .why-audurra-scope .component.button.center.wa-faq-cta .btn.btn-default {
+  display: inline-block;
+  margin: 0 0 5px;
+  padding: 10px 31px 11px;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: none;
+  letter-spacing: normal;
+  text-decoration: none;
+  color: #c82127;
+  background: #fff;
+  border: 2px solid #c82127;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.why-audurra-page .why-audurra-scope .component.button.center.wa-faq-cta .btn.btn-default:hover,
+.why-audurra-page .why-audurra-scope .component.button.center.wa-faq-cta .btn.btn-default:focus-visible {
+  color: #fff;
+  background: #c82127;
+  border-color: #c82127;
+  text-decoration: none;
+  outline: none;
+}
+
+.why-audurra-page .why-audurra-scope .component.button.center.wa-faq-cta .btn.btn-default:active {
+  color: #fff;
+  background: #b01d22;
+  border-color: #b01d22;
+}
+
+@media (max-width: 767px) {
+  .why-audurra-page .why-audurra-scope .headlineContent h1.wa-page-h1,
+  .why-audurra-page .section-block .why-audurra-scope .headlineContent h1.wa-page-h1 {
+    font-size: 26px;
+  }
+}
+
+/* --- faq.html: listStyle_2 FAQ + layout rows (theme_color1) --- */
+.why-audurra-page .why-audurra-scope .clearfix.layoutBorder.section {
+  margin: 0 0 10px;
+}
+
+.why-audurra-page .why-audurra-scope .wa-layout-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.why-audurra-page .why-audurra-scope .wa-layout-col-12,
+.why-audurra-page .why-audurra-scope .wa-layout-col-8,
+.why-audurra-page .why-audurra-scope .wa-layout-col-6,
+.why-audurra-page .why-audurra-scope .wa-layout-col-4 {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 15px 20px;
+}
+
+@media (min-width: 992px) {
+  .why-audurra-page .why-audurra-scope .wa-layout-col-12 {
+    width: 100%;
+  }
+
+  .why-audurra-page .why-audurra-scope .wa-layout-col-8 {
+    width: 66.666667%;
+  }
+
+  .why-audurra-page .why-audurra-scope .wa-layout-col-6 {
+    width: 50%;
+  }
+
+  .why-audurra-page .why-audurra-scope .wa-layout-col-4 {
+    width: 33.333333%;
+  }
+}
+
+.why-audurra-page .why-audurra-scope .component.textComponent.wa-faq-block {
+  margin: 0;
+}
+
+.why-audurra-page .why-audurra-scope .component.textComponent.wa-faq-block h3.wa-faq-h3,
+.why-audurra-page .section-block .why-audurra-scope .component.textComponent.wa-faq-block h3.wa-faq-h3 {
+  margin: 0 0 10px;
+  padding: 0;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-transform: none;
+  letter-spacing: normal;
+  text-align: center;
+  color: #c82127;
+}
+
+.why-audurra-page .why-audurra-scope .component.textComponent.wa-faq-block h3.wa-faq-h3:not(:first-child) {
+  margin-top: 18px;
+}
+
+.why-audurra-page .why-audurra-scope .component.textComponent.wa-faq-block p {
+  margin: 0 0 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #1e1e1e;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.why-audurra-page .why-audurra-scope .component.textComponent.wa-faq-block p:last-child {
+  margin-bottom: 0;
+}
+
+.why-audurra-page .why-audurra-scope .component.textComponent.wa-faq-block a {
+  color: #c82127;
+  text-decoration: underline;
+}
+
+.why-audurra-page .why-audurra-scope .component.textComponent.wa-faq-block a:hover,
+.why-audurra-page .why-audurra-scope .component.textComponent.wa-faq-block a:focus-visible {
+  color: #868686;
+  text-decoration: underline;
+  outline: none;
+}
+
+.why-audurra-page .why-audurra-scope .component.mediaTeaser.wa-media-teaser {
+  margin: 0;
+}
+
+.why-audurra-page .why-audurra-scope .component.mediaTeaser.wa-media-teaser .img {
+  display: block;
+  margin: 0;
+  overflow: hidden;
+}
+
+.why-audurra-page .why-audurra-scope .component.mediaTeaser.wa-media-teaser .img picture,
+.why-audurra-page .why-audurra-scope .component.mediaTeaser.wa-media-teaser .img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.why-audurra-page .why-audurra-scope .component.mediaTeaser.wa-media-teaser .img picture.ratio-16-9 img {
+  aspect-ratio: 16 / 9;
+}
+
+.why-audurra-page .why-audurra-scope .component.mediaTeaser.wa-media-teaser .img picture.ratio-5-3 img {
+  aspect-ratio: 5 / 3;
+}
+
+.why-audurra-page .why-audurra-scope .component.button.center.wa-faq-home-btn {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .why-audurra-page .why-audurra-scope .wa-faq-btn-col {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .why-audurra-page .why-audurra-scope .wa-faq-btn-col .wa-faq-home-btn {
+    width: 100%;
+  }
+}
+
+.why-audurra-page .why-audurra-scope .component.button.center.wa-faq-home-btn .btn.btn-default {
+  display: inline-block;
+  margin: 0 0 5px;
+  padding: 10px 31px 11px;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: none;
+  letter-spacing: normal;
+  text-decoration: none;
+  color: #c82127;
+  background: #fff;
+  border: 2px solid #c82127;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.why-audurra-page .why-audurra-scope .component.button.center.wa-faq-home-btn .btn.btn-default:hover,
+.why-audurra-page .why-audurra-scope .component.button.center.wa-faq-home-btn .btn.btn-default:focus-visible {
+  color: #fff;
+  background: #c82127;
+  border-color: #c82127;
+  text-decoration: none;
+  outline: none;
+}
+
+.why-audurra-page .why-audurra-scope .component.button.center.wa-faq-home-btn .btn.btn-default:active {
+  color: #fff;
+  background: #b01d22;
+  border-color: #b01d22;
+}

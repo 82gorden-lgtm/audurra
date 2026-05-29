@@ -1,0 +1,22 @@
+  <header class="main corporate textLogo headerTop site-header" id="siteHeader" data-origheight="114">
+@@include('axalta-ribbon.html')
+    <div class="header_wrapper">
+      <div class="brand-wrap">
+        <a class="brand" href="{{BASE}}index.html" aria-label="Главная страница Audurra">
+          <img src="{{BASE}}img/audurra-logo.jpg" alt="Логотип Audurra" width="340" height="180">
+        </a>
+      </div>
+      <div class="ajaxLoader">
+        <div class="nav">
+@@include('top-meta.html')
+          <div class="main-nav-wrap">
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" type="button" aria-label="Открыть навигацию" aria-expanded="false" aria-controls="mainNav">
+              <span class="burger" aria-hidden="true"><span class="line1"></span><span class="line2"></span><span class="line3"></span><span class="lineX1"></span><span class="lineX2"></span></span>
+            </button>
+@@include('main-nav.html')
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <button type="button" class="mobile-nav-backdrop" id="mobileNavBackdrop" hidden aria-label="Закрыть меню"></button>

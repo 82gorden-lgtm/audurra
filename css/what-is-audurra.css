@@ -1,0 +1,383 @@
+/**
+ * what-is-audurra/index.html — scoped replica (theme_color1 / Audurra axbase)
+ * Style matrix (source Computed @ 1440px):
+ * - body: #1e1e1e, 16px/22px, mb 15px
+ * - H1: #c82127, 30px, weight 500, lh 39px, text-transform none
+ * - HR: 227px × 2px #c82127, mt 10px mb 35px
+ * - teaser H3: #c82127, 20px, weight 500, lh 26px
+ */
+
+.what-is-audurra-page .what-is-audurra-scope {
+  color: #1e1e1e;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .headlineContent {
+  margin-bottom: 0;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .headlineContent .component.headline {
+  margin: 0;
+  padding: 0;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .headlineContent h1.wia-page-h1,
+.what-is-audurra-page .section-block .what-is-audurra-scope .headlineContent h1.wia-page-h1 {
+  margin: 0;
+  padding: 0;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-transform: none;
+  letter-spacing: normal;
+  text-align: center;
+  color: #c82127;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .headlineContent hr.wia-page-rule {
+  display: block;
+  width: 227px;
+  max-width: 100%;
+  height: 0;
+  margin: 10px auto 35px;
+  padding: 0;
+  border: 0;
+  border-top: 2px solid #c82127;
+  background: transparent;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.textComponent.wia-intro-text {
+  margin: 0 0 10px;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.textComponent.wia-intro-text p {
+  margin: 0 0 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #1e1e1e;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .wia-teaser-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .wia-teaser-col {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 15px 30px;
+}
+
+@media (min-width: 768px) {
+  .what-is-audurra-page .what-is-audurra-scope .wia-teaser-col {
+    width: 33.333333%;
+  }
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.mediaTeaser {
+  margin: 0;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.mediaTeaser > a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.mediaTeaser > a:hover,
+.what-is-audurra-page .what-is-audurra-scope .component.mediaTeaser > a:focus-visible {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.mediaTeaser .img {
+  display: block;
+  margin: 0 0 12px;
+  overflow: hidden;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.mediaTeaser .img picture,
+.what-is-audurra-page .what-is-audurra-scope .component.mediaTeaser .img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.mediaTeaser .text h3,
+.what-is-audurra-page .section-block .what-is-audurra-scope .component.mediaTeaser .text h3.wia-teaser-title {
+  margin: 0;
+  padding: 0;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-transform: none;
+  letter-spacing: normal;
+  text-align: center;
+  color: #c82127;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.mediaTeaser > a:hover .text h3,
+.what-is-audurra-page .what-is-audurra-scope .component.mediaTeaser > a:focus-visible .text h3 {
+  color: #c82127;
+}
+
+@media (max-width: 767px) {
+  .what-is-audurra-page .what-is-audurra-scope .headlineContent h1.wia-page-h1,
+  .what-is-audurra-page .section-block .what-is-audurra-scope .headlineContent h1.wia-page-h1 {
+    font-size: 26px;
+  }
+}
+
+/* --- abrasives.html (layout 4: moodImage + sidebar) --- */
+.what-is-audurra-page.banner-side-menu-page .template-page-hero {
+  width: 100%;
+  max-height: 402px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.what-is-audurra-page.banner-side-menu-page .template-page-hero picture,
+.what-is-audurra-page.banner-side-menu-page .template-page-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 402px;
+  object-fit: cover;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .wia-layout-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px 10px;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .wia-layout-col-8,
+.what-is-audurra-page .what-is-audurra-scope .wia-layout-col-6,
+.what-is-audurra-page .what-is-audurra-scope .wia-layout-col-4,
+.what-is-audurra-page .what-is-audurra-scope .wia-layout-col-12 {
+  box-sizing: border-box;
+  padding: 0 15px 20px;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .wia-layout-col-12 {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .what-is-audurra-page .what-is-audurra-scope .wia-layout-col-8 {
+    width: 66.666667%;
+  }
+
+  .what-is-audurra-page .what-is-audurra-scope .wia-layout-col-4 {
+    width: 33.333333%;
+  }
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.textComponent h2.wia-section-h2,
+.what-is-audurra-page .section-block .what-is-audurra-scope .component.textComponent h2.wia-section-h2 {
+  margin: 0 0 25px;
+  padding: 0;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-transform: none;
+  letter-spacing: normal;
+  text-align: center;
+  color: #c82127;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.textComponent p {
+  margin: 0 0 15px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #1e1e1e;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.mediaTeaser--inline {
+  margin: 0;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.mediaTeaser--inline .img {
+  display: block;
+  margin: 0;
+  overflow: hidden;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.mediaTeaser--inline .img picture,
+.what-is-audurra-page .what-is-audurra-scope .component.mediaTeaser--inline .img img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .wia-media-stack .component.mediaTeaser--inline + .component.mediaTeaser--inline {
+  margin-top: 16px;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .wia-gallery-row {
+  margin-bottom: 0;
+}
+
+@media (min-width: 992px) {
+  .what-is-audurra-page .what-is-audurra-scope .wia-layout-col-6 {
+    width: 50%;
+  }
+}
+
+@media (max-width: 991px) {
+  .what-is-audurra-page .what-is-audurra-scope .wia-layout-col-8,
+  .what-is-audurra-page .what-is-audurra-scope .wia-layout-col-4,
+  .what-is-audurra-page .what-is-audurra-scope .wia-layout-col-6 {
+    width: 100%;
+  }
+}
+
+/* --- masking.html: numbered product h3 + captioned mediaTeaser --- */
+.what-is-audurra-page .what-is-audurra-scope .component.textComponent h3.wia-item-h3,
+.what-is-audurra-page .section-block .what-is-audurra-scope .component.textComponent h3.wia-item-h3 {
+  margin: 0 0 10px;
+  padding: 0;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-transform: none;
+  letter-spacing: normal;
+  text-align: center;
+  color: #c82127;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.textComponent h3.wia-item-h3 + p {
+  margin-bottom: 18px;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.mediaTeaser--caption .text {
+  margin-top: 12px;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.mediaTeaser--caption .text p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #1e1e1e;
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+/* --- plastic-repair.html: headline h2 lead, Wistia, flipBookReader --- */
+.what-is-audurra-page .what-is-audurra-scope .headlineContent h2.wia-page-lead,
+.what-is-audurra-page .section-block .what-is-audurra-scope .headlineContent h2.wia-page-lead {
+  margin: 0;
+  padding: 0;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+  text-transform: none;
+  letter-spacing: normal;
+  text-align: center;
+  color: #c82127;
+}
+
+@media (max-width: 767px) {
+  .what-is-audurra-page .what-is-audurra-scope .headlineContent h2.wia-page-lead,
+  .what-is-audurra-page .section-block .what-is-audurra-scope .headlineContent h2.wia-page-lead {
+    font-size: 20px;
+  }
+}
+
+.what-is-audurra-page .what-is-audurra-scope .wia-wistia-wrap {
+  margin: 0;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.flipBookReader {
+  margin: 0;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.flipBookReader img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 17px;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.flipBookReader section {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.flipBookReader section article {
+  display: table-cell;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.flipBookReader section article div span {
+  text-align: left;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.flipBookReader span a {
+  display: block;
+  position: relative;
+  padding-left: 24px;
+  margin: 0;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #868686;
+  text-decoration: none;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.flipBookReader span a + a {
+  margin-top: 6px;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.flipBookReader span a::before {
+  font-family: "Linearicons", "Axalta Linearicons", sans-serif;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  left: 0;
+  top: 4px;
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.flipBookReader span a.open::before {
+  content: "\e944";
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.flipBookReader span a.download::before {
+  content: "\e8f5";
+}
+
+.what-is-audurra-page .what-is-audurra-scope .component.flipBookReader span a:hover,
+.what-is-audurra-page .what-is-audurra-scope .component.flipBookReader span a:focus-visible {
+  text-decoration: none;
+  color: #02143a;
+  outline: none;
+}
