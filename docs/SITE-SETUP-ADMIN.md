@@ -17,6 +17,12 @@
 - Document root указывает на корень репозитория (где лежат `index.html`, `catalog/`, `contacts/`).
 - Точка входа — `index.html` и прочие `.html` по путям URL.
 
+### Beget FTP / GitHub Actions
+
+На Beget FTP-пользователь может открываться уже внутри веб-корня домена, например в `../audurra.ru/public_html`. В этом случае в workflow деплоя нельзя повторно указывать `audurra.ru/public_html/` как `server-dir`: файлы попадут во вложенную папку `audurra.ru/public_html/audurra.ru/public_html`.
+
+Для текущей настройки используйте `server-dir: ./` в `.github/workflows/deploy-beget.yml`, если FTP-логин уже привязан к веб-корню сайта. Указывать `audurra.ru/public_html/` нужно только если FTP-сессия стартует выше папки домена.
+
 ## 4. Права на каталоги
 
 Запись для PHP (пользователь веб-сервера):

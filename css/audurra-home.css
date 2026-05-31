@@ -98,7 +98,12 @@ main.catalog-page.audurra-home-page .audurra-home-scope {
 .audurra-home-teaser-more {
   font-size: 14px;
   font-weight: 700;
-  color: #e63c28;
+  color: #666;
+}
+
+.audurra-home-teaser:hover .audurra-home-teaser-more,
+.audurra-home-teaser:focus-visible .audurra-home-teaser-more {
+  color: #c82127;
 }
 
 .audurra-home-teaser-more i {
@@ -151,46 +156,94 @@ main.catalog-page.audurra-home-page .audurra-home-scope {
   color: #333;
 }
 
-.audurra-home-icons {
+.audurra-home-icon-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {
-  .audurra-home-icons {
+  .audurra-home-icon-grid {
     grid-template-columns: 1fr;
   }
 }
 
-.audurra-home-icon-tile {
+.audurra-home-icon-col {
+  min-width: 0;
+}
+
+.audurra-home-icon-grid .component.mediaTeaser.icon {
+  margin: 30px 0;
+}
+
+.audurra-home-icon-grid .component.mediaTeaser.icon > a {
   display: block;
-  text-align: center;
   text-decoration: none;
-  color: #333;
-  padding: 28px 16px;
-  border: 1px solid #e0e0e0;
-  background: #f5f5f5;
+  color: inherit;
 }
 
-.audurra-home-icon-tile:hover,
-.audurra-home-icon-tile:focus-visible {
-  color: #e63c28;
+.audurra-home-icon-grid .component.mediaTeaser.icon > a:hover,
+.audurra-home-icon-grid .component.mediaTeaser.icon > a:focus-visible {
   text-decoration: none;
+  color: inherit;
 }
 
-.audurra-home-icon-tile i {
-  font-size: 42px;
-  color: #e63c28;
-  display: block;
-  margin-bottom: 14px;
-}
-
-.audurra-home-icon-tile h3 {
-  font-size: 18px;
-  font-weight: 500;
-  margin: 0;
+.audurra-home-icon-grid [class^="icon-"]:before,
+.audurra-home-icon-grid [class*=" icon-"]:before {
+  font-family: "Linearicons", sans-serif;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
   text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-right: 0;
+}
+
+.audurra-home-icon-grid .icon-play:before { content: "\e906"; }
+.audurra-home-icon-grid .icon-register:before { content: "\e908"; }
+.audurra-home-icon-grid .icon-question:before { content: "\e907"; }
+.audurra-home-icon-grid .icon-papers:before { content: "\e905"; }
+.audurra-home-icon-grid .icon-cog:before { content: "\e672"; }
+.audurra-home-icon-grid .icon-camera-play:before { content: "\e901"; }
+.audurra-home-icon-grid .icon-sort-alpha-asc:before { content: "\e9b5"; }
+.audurra-home-icon-grid .icon-paste:before { content: "\e6c8"; }
+.audurra-home-icon-grid .icon-flag:before { content: "\e691"; }
+
+.audurra-home-icon-grid .component.mediaTeaser.icon .img {
+  text-align: center;
+  font-size: 40px;
+  line-height: 1;
+  color: #c82127;
+  margin-bottom: 6px;
+  transition: transform 0.25s ease;
+}
+
+.audurra-home-icon-grid .component.mediaTeaser.icon .img span {
+  display: inline-block;
+}
+
+.audurra-home-icon-grid .component.mediaTeaser.icon:hover .img,
+.audurra-home-icon-grid .component.mediaTeaser.icon:focus-within .img {
+  transform: scale(1.2);
+}
+
+.audurra-home-icon-grid .component.mediaTeaser.icon .text {
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.audurra-home-icon-grid .component.mediaTeaser.icon .text h3 {
+  margin: 0;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: none;
+  letter-spacing: normal;
   text-align: center;
   color: #c82127;
 }

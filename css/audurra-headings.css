@@ -61,7 +61,7 @@ main.catalog-page.audurra-home-page .audurra-home-scope > .component.headline > 
   text-transform: none;
   letter-spacing: normal;
   text-align: center;
-  color: rgba(33, 202, 44, 1);
+  color: var(--audurra-heading-red);
 }
 
 /* --- H2 в контенте --- */
@@ -102,7 +102,6 @@ main.catalog-page.audurra-home-page .audurra-home-scope > .component.headline > 
 main.catalog-page .facetMain [class*="-scope"] .component.textComponent h3,
 main.catalog-page .facetMain [class*="-scope"] .component.mediaTeaser .text h3,
 main.catalog-page.audurra-home-page .audurra-home-teaser-text h3,
-main.catalog-page.audurra-home-page .audurra-home-icon-tile h3,
 main.catalog-page.audurra-home-page .audurra-home-video-copy h3,
 main.catalog-page .where-to-buy-copy h3,
 main.catalog-page .legal-document-body h3 {
